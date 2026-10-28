@@ -1,75 +1,57 @@
-# 🎮 Rock Paper Scissors Game
+# 🎮 Rock, Paper, Scissors
 
-A simple **Rock Paper Scissors** game built using **Python**. The player competes against the computer, which makes random choices. The game determines the winner based on the classic Rock-Paper-Scissors rules and allows multiple rounds.
+## 📌 About the Project
+Rock, Paper, Scissors is a simple Python game in which the user plays against the computer. The computer randomly selects rock, paper, or scissors, and the winner is determined according to the rules of the game.
 
-## 📌 Features
+This project includes a score counter to track the user's wins, computer wins, and ties throughout the game.
 
-* Play against the computer
-* Random computer choice using Python's `random` module
-* Input validation for invalid choices
-* Winner announcement after each round
-* Option to play multiple rounds
+## ✨ Features
+- 🎯 Play against the computer.
+- 🎲 Computer makes a random choice.
+- 🏆 Tracks the user's wins.
+- 💻 Tracks the computer's wins.
+- 🤝 Counts tied rounds.
+- 📊 Displays the scoreboard after every round.
+- 🔄 Allows the user to play multiple rounds.
+- 🥇 Displays the final score when the game ends.
+- ✅ Handles invalid choices.
 
 ## 🛠️ Technologies Used
+- Python
+- Random Module
 
-* Python 3
-* Random Module
+## 🎮 Game Rules
+- Rock beats Scissors.
+- Scissors beats Paper.
+- Paper beats Rock.
+- If both players choose the same option, the round is a tie.
 
-## 📂 Project Structure
+## 📷 Sample Output
 
+```text
+Welcome to Rock, Paper, Scissors!
+-----------------------------------
+Enter Rock, Paper, or Scissors: rock
+
+You chose: rock
+Computer chose: scissors
+You Win!
+
+------ SCOREBOARD ------
+Your Wins: 1
+Computer Wins: 0
+Ties: 0
+------------------------
+
+Do you want to play again? (yes/no): no
+
+===== FINAL SCORE =====
+Your Wins: 1
+Computer Wins: 0
+Ties: 0
+
+Thanks for playing!
 ```
-rock_paper_scissors_game/
-│── Rock_Paper_Scissors_game.py
-└── README.md
-```
-
-## ▶️ How to Run
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/riddhideshmukh15/rock_paper_scissors_game.git
-   ```
-
-2. Open the project folder:
-
-   ```bash
-   cd rock_paper_scissors_game
-   ```
-
-3. Run the Python file:
-
-   ```bash
-   python Rock_Paper_Scissors_game.py
-   ```
-
-## 🎯 Game Rules
-
-* Rock beats Scissors
-* Scissors beats Paper
-* Paper beats Rock
-* If both players choose the same option, the result is a tie.
-
-## 📚 Concepts Practiced
-
-* Variables
-* Lists
-* User Input
-* Conditional Statements (`if`, `elif`, `else`)
-* Loops (`while`)
-* Functions from the `random` module
-* Basic Game Logic
-
-## 🚀 Future Improvements
-
-* Add a scoreboard
-* Best of 3 / Best of 5 mode
-* Graphical User Interface (GUI) using Tkinter
-* Sound effects and animations
-* Save game statistics
 
 ## 👩‍💻 Author
-
 **Riddhi Deshmukh**
-
-GitHub: https://github.com/riddhideshmukh15
